@@ -1,0 +1,26 @@
+.root {
+
+-fx-background-image: url("imagen.jpg");
+}
+
+
+
+    TextField {
+        -fx-background-color: #ffffff;
+        -fx-font-size: 30px ;
+    }
+    
+       
+    label {
+        -fx-text-fill: #ffffff;
+        
+    }
+    
+    #mierror {
+        -fx-text-fill: #ff0000;
+         -fx-font-size: 60px ;
+    }
+
+
+
+  

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane"  prefHeight="1270.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication9.ControladorDos">
+   <children>
+      <Circle fx:id="bola" fill="DODGERBLUE" layoutX="119.0" layoutY="188.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="minombre" layoutX="15.0" layoutY="14.0" prefHeight="104.0" prefWidth="396.0" textFill="WHITE">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="rectangulo" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="1514.0" layoutY="455.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label fx:id="resultado" layoutX="1068.0" layoutY="27.0" prefHeight="274.0" prefWidth="816.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="volverAtras" layoutX="1476.0" layoutY="709.0" mnemonicParsing="false" onAction="#vueltaAtras" prefHeight="113.0" prefWidth="249.0" text="Volver">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
